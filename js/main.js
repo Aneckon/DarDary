@@ -30,7 +30,6 @@ var swiper = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
   },
   breakpoints: {
-    // when window width is >= 320px
     320: {
       slidesPerView: 1,
       spaceBetween: 20
@@ -39,12 +38,10 @@ var swiper = new Swiper(".mySwiper", {
       slidesPerView: 2,
       spaceBetween: 20
     },
-    // when window width is >= 480px
     990: {
       slidesPerView: 3,
       spaceBetween: 30
     },
-    // when window width is >= 640px
     1240: {
       slidesPerView: 4,
       spaceBetween: 40
@@ -60,5 +57,19 @@ var swiper2 = new Swiper(".mySwiper2", {
   },
   pagination: {
     el: ".swiper-pagination",
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 20
+    },
+    720: {
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    990: {
+      slidesPerView: 3,
+      spaceBetween: 30
+    },
   },
 });

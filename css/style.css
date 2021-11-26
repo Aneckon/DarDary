@@ -799,6 +799,7 @@ body{
   position: relative;
 }
 .reviews__frends-img img{
+  display: block;
   padding-bottom: 0;
   padding-right: 14px;
 }
@@ -811,6 +812,9 @@ body{
   width: 2px;
   height: 100%;
   background: #6CC0AE;
+}
+.reviews__frends-mob {
+  display: none;
 }
 .reviews__frends p{
   max-width: 460px;
@@ -863,6 +867,9 @@ body{
   position: relative;
   padding: 100px 0;
   margin-bottom: 50px;
+}
+.georafi__header-mob{
+  display: none;
 }
 .georafi::after{
   content: '';
@@ -1348,7 +1355,7 @@ body{
 .cart::after{
   content: '';
   position: absolute;
-  top: -170px;
+  top: -250px;
   left: 0;
   right: 0;
   margin: 0 auto;
