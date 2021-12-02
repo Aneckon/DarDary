@@ -734,6 +734,9 @@
   .inspire__inner .georafi__info::after{
     display: none;
   }
+  .swiper {
+    width: 80%;
+  }
   .inspire__header{
     padding-top: 20px;
   }
@@ -787,10 +790,10 @@
     flex-direction: column;
   }
   .swiper-button-next, .swiper-rtl .swiper-button-prev{
-    right: 0;
+    right: 0px;
   }
   .swiper-button-prev, .swiper-rtl .swiper-button-next{
-    left: 0;
+    left: 0px;
   }
   .sec__index{
     padding-bottom: 120px;
@@ -970,6 +973,9 @@
   }
 }
 @media (max-width: 460px){
+  .swiper {
+    width: 100%;
+  }
   .cart__item{
     padding: 10px;
     padding-bottom: 300px;
