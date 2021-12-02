@@ -130,7 +130,7 @@ body{
   max-width: 980px;
   width: 100%;
   right: 0;
-  top: 0;
+  bottom: 0;
   position: absolute;
 }
 .index__bg img{
