@@ -1180,20 +1180,6 @@ body{
   position: relative;
   padding: 157px 0;
 }
-.advantages::after{
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  margin: 0 auto;
-  background: url('../img/bg__mtn.png') no-repeat center;
-  width: 100%;
-  background-size: cover;
-  height: 1416px;
-  z-index: -1;
-  mix-blend-mode: normal;
-}
 .advantages__item{
   text-align: center;
 }
@@ -1451,4 +1437,8 @@ body{
 }
 .header__instagram-mob{
   display: none;
+}
+.owner__item img{
+  max-width: 600px;
+  width: 100%;
 }
