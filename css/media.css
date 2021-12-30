@@ -997,6 +997,10 @@
   .swiper {
     width: 100%;
   }
+  .format {
+    position: relative;
+    padding: 0;
+  }
   .cart__item{
     padding: 10px;
     padding-bottom: 300px;

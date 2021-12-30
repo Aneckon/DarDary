@@ -439,6 +439,7 @@ body{
   color: #FFFFFF;
 }
 .studions__slide-open .studions__slide-red{
+  font-weight: bold !important;
   color: #FF4D52;
   font-weight: bold;
   border-bottom: 1px solid #FF4D52;
