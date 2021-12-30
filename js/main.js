@@ -52,6 +52,7 @@ $(document).ready(function () {
   });
 });
 
+AOS.init({ disable: 'mobile' });
 
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,
