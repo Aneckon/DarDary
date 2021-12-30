@@ -931,9 +931,6 @@
     align-items: center;
     justify-content: space-between;
   }
-  .studions__item-content img{
-    display: block;
-  }
   .icon__mob-none{
     display: none;
   }
@@ -996,6 +993,9 @@
 @media (max-width: 460px){
   .swiper {
     width: 100%;
+  }
+  .inspire__item{
+    height: auto;
   }
   .format {
     position: relative;
@@ -1069,9 +1069,6 @@
   }
   .format__content p .format__content-red{
     font-size: 12px;
-  }
-  .inspire__item{
-    height: auto;
   }
   .format__hed-title h3{
     font-size: 20px;
